@@ -4,7 +4,7 @@
   "description": "",
   "main": "client",
   "scripts": {
-    "start": "node server ",
+    "start": "npm --prefix client start ",
     "develop": "concurrently \"cd server && npm run start\" \"cd client && npm start\"",
     "install": "cd server && npm i && cd ../client && npm i && cd .. && npm run seed",
     "seed": "cd server && npm run seed",
