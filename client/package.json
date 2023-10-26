@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "proxy": "http://localhost:3001",
+  "homepage": "https://aturner3x.github.io/snip-snap",
   "dependencies": {
     "@apollo/client": "^3.5.8",
     "@ionic/react": "^7.1.3",
