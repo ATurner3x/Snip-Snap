@@ -2,7 +2,7 @@
   "name": "programming-thoughts",
   "version": "1.0.0",
   "description": "",
-  "main": "server/server.js",
+  "main": "client",
   "scripts": {
     "start": "node server ",
     "develop": "concurrently \"cd server && npm run start\" \"cd client && npm start\"",
