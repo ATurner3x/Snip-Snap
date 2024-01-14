@@ -57,7 +57,7 @@ function App() {
             {/* Define the app routes */}
             <Routes>
               {/* Home page route */}
-              <Route path="/Snip-Snap" element={<Home />} />
+              <Route path="/" element={<Home />} />
               {/* Login page route */}
               <Route path="/login" element={<Login />} />
               {/* Signup page route */}
