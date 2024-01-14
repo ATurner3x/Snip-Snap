@@ -6,9 +6,9 @@ import {
   createHttpLink,
 } from "@apollo/client";
 import { setContext } from "@apollo/client/link/context";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, } from "react-router-dom";
 import { IonPage, IonHeader, IonContent, IonFooter } from "@ionic/react";
-
+import { Navigate } from 'react-router-dom';
 import Home from "./pages/Home";
 import Signup from "./pages/Signup";
 import Login from "./pages/Login";
@@ -56,9 +56,10 @@ function App() {
           <IonContent className="ion-padding">
             {/* Define the app routes */}
             <Routes>
-              {/* Home page route */}
-              <Route path="/" element={<Home />} />
-              {/* Login page route */}
+             {/* Set the default route to Home using Navigate */}
+              <Route path="/" element={<Navigate to="/Snip-Snap" />} />
+            {/* Home page route */} {/* Login page route */}
+            <Route path="/" element={<Navigate to="/Snip-Snap" />} />
               <Route path="/login" element={<Login />} />
               {/* Signup page route */}
               <Route path="/signup" element={<Signup />} />
