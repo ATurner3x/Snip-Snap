@@ -59,7 +59,7 @@ function App() {
              {/* Set the default route to Home using Navigate */}
               <Route path="/" element={<Navigate to="/Snip-Snap" />} />
             {/* Home page route */} {/* Login page route */}
-            <Route path="/" element={<Navigate to="/Snip-Snap" />} />
+            <Route path="/Snip-Snap" element={<Home />} />
               <Route path="/login" element={<Login />} />
               {/* Signup page route */}
               <Route path="/signup" element={<Signup />} />
