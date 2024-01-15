@@ -3,7 +3,7 @@ import Auth from "../utils/auth";
 import { useQuery, useMutation } from "@apollo/client";
 import { QUERY_SERVICES, QUERY_STYLISTS } from "../utils/queries";
 import { ADD_APPOINTMENT } from "../utils/mutations";
-import Logo from "/Users/ajt34/classwork/snipsnap/SnipSnap/client/public/SnipSnap.jpg";
+import Logo from "../images/SnipSnap.jpg";
 
 import {
   IonDatetime,
